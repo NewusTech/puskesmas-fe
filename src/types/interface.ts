@@ -10,3 +10,17 @@ export interface SelectSearchProps {
   type?: string;
   setValueId?: (v: { id: string | number; label: string }) => void;
 }
+
+export interface NavbarProps {
+  type?: string;
+}
+
+export interface CardPasienProps {
+  title: string;
+  children: React.ReactNode;
+}
+
+export interface InputComponentProps {
+  children: React.ReactNode;
+  title: string;
+}

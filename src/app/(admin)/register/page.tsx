@@ -166,7 +166,7 @@ export default function RegisterPage() {
   });
 
   return (
-    <section className="pl-32  pr-6">
+    <section className="pl-32 pr-6">
       <h1 className="text-[26px] font-semibold mb-16">Pendaftaran</h1>
       <DataTables columns={columns} data={data} filterBy="status">
         <div className="grid grid-cols-3 gap-3">

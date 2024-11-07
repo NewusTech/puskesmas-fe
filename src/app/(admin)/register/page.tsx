@@ -168,7 +168,14 @@ export default function RegisterPage() {
   return (
     <section className="pl-32 pr-6">
       <h1 className="text-[26px] font-semibold mb-16">Pendaftaran</h1>
-      <DataTables columns={columns} data={data} filterBy="status">
+      <DataTables
+        columns={columns}
+        data={data}
+        type="datatables"
+        filterBy="status"
+        link="/register/create/step-1"
+        linkText="Tambah Data Pasien"
+      >
         <div className="grid grid-cols-3 gap-3">
           <div className="flex flex-col space-y-2">
             <Label htmlFor="search">Cari</Label>

@@ -11,7 +11,7 @@ export default function RootLayout({
   const pathname = usePathname();
   const step =
     pathname.includes("/register/create/step-1") ||
-    pathname.includes("/register/create/step-2s");
+    pathname.includes("/register/create/step-2");
 
   return (
     <div>

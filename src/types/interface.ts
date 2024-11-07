@@ -18,9 +18,13 @@ export interface NavbarProps {
 export interface CardPasienProps {
   title: string;
   children: React.ReactNode;
+  checkbox?: (event: boolean) => void;
+  type?: string;
 }
 
 export interface InputComponentProps {
   children: React.ReactNode;
   title: string;
+  type?: string;
+  vertical?: string;
 }

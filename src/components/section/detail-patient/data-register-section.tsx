@@ -1,7 +1,7 @@
 "use client";
 
 import { DataTables } from "@/components/data-tables";
-import DataPatient from "./data-patient";
+import DataPatient from "../../parts/detail-patient/data-patient";
 import { Button } from "@/components/ui/button";
 import { CaretSortIcon } from "@radix-ui/react-icons";
 import { ColumnDef } from "@tanstack/react-table";

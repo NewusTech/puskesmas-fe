@@ -1,4 +1,4 @@
-import DataRegisterSection from "@/components/parts/detail-patient/data-register-section";
+import DataRegisterSection from "@/components/section/detail-patient/data-register-section";
 import DataPatientSection from "@/components/section/detail-patient/data-patient";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";

@@ -1,7 +1,4 @@
-export interface CircleProps {
-  background: string;
-  title: string;
-}
+import { CircleProps } from "@/types/interface";
 
 export default function Circle({ background, title }: CircleProps) {
   return (

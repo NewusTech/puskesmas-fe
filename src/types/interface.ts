@@ -28,3 +28,22 @@ export interface InputComponentProps {
   type?: string;
   vertical?: string;
 }
+
+export interface CheckboxItemProps {
+  title: string;
+  id: string;
+}
+
+export interface CircleProps {
+  background: string;
+  title: string;
+}
+
+export interface DataPatientProps {
+  title: string;
+  desc: string;
+}
+
+export interface CardDataPatientProps {
+  children: React.ReactNode;
+}

@@ -1,10 +1,6 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-
-interface CheckboxItemProps {
-  title: string;
-  id: string;
-}
+import { CheckboxItemProps } from "@/types/interface";
 
 export default function CheckboxItem({ title, id }: CheckboxItemProps) {
   return (

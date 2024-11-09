@@ -5,6 +5,7 @@ import InputComponent from "@/components/parts/register/step-1/input-pasien";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { PlusIcon, Trash2 } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 interface InputField {
@@ -216,6 +217,20 @@ export default function GeneralConsentPage() {
             </div>
           </InputComponent>
         </div>
+      </div>
+      <div className="flex justify-end space-x-2 pb-4">
+        <Link
+          href="/register"
+          className="border px-5 py-2 flex transition-colors duration-300 items-center border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-slate-50 rounded-full"
+        >
+          Batal
+        </Link>
+        <Link
+          href="/register/create/step-2"
+          className="px-5 flex py-2 transition-colors duration-300 items-center text-slate-50 bg-primary-700 hover:bg-primary-800 rounded-full"
+        >
+          Simpan
+        </Link>
       </div>
     </section>
   );
